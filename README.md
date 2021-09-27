@@ -10,11 +10,17 @@
 
 2. Big-O gösterimini yazınız.
 
-    **(n)+(n-1)+(n-2)= 3n-3= O(n)**
+    **n kadar verimiz olsaydı;**
+
+    **(n)+(n-1)+(n-2)...+1= n.(n+1)/2= (n^2+n)/2= O(n^2)** 
+
+    **n+(n-1)+(n-2)=3n-3= O(n)** 
 
 3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
 
-    **Big-O O(n) çıktı ve bu değer insertion sort'da Best Case ve Average Case'dir.**
+    **Big-O O(n): Best case and Average case**
+    
+    **Big-O O(n^2): Worst case**
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
     **Average Case**
